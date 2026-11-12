@@ -19,7 +19,7 @@ class Program {
 
     async run() {
         try {
-            const request = await Promise.try(() => this.multiplyRequestPipe.execute(this.payload, {targetClass: Program, methodName: 'run', parameterIndex: -1}))
+            const request: MultiplyRequest = await Promise.try(() => this.multiplyRequestPipe.execute(this.payload, {targetClass: Program, methodName: 'run', parameterIndex: -1}))
             const result = request.a * request.b;
             console.log(`multiplication result is ${result}`);
         } catch (err) {
