@@ -15,7 +15,7 @@
   "scripts": {
     "test": "vitest",
     "build": "tsc",
-    "buil:prod": "tsc --sourceMap false --declarationMap false",
+    "build:prod": "tsc --sourceMap false --declarationMap false",
     "dev": "nodemon -e ts --watch src --exec \"npm run build\""
   },
   "devDependencies": {
