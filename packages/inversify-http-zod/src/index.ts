@@ -12,7 +12,7 @@ export function ZodPipe<R>(schema: {parse: (input: unknown) => R}): { new(): Pip
                 return schema.parse(input);
             } catch (err) {
                 if (err instanceof ZodError) {
-                    throw new Error(`zod error happened`);
+                    throw new BadRequestHttpResponse(`zod error happened`);
                 }
 
                 throw err;
