@@ -1,4 +1,4 @@
 node_modules
-tsconfit.json
+tsconfig.json
 vitest.config.ts
 src
