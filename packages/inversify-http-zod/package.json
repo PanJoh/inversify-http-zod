@@ -1,6 +1,6 @@
 {
   "name": "@panjoh/inversify-http-zod",
-  "version": "1.0.0-prerelease.1",
+  "version": "1.0.0",
   "description": "'pipes for zod schemas'",
   "keywords": [
     "zod",
