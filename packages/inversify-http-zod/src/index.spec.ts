@@ -59,7 +59,7 @@ describe('zod pipe tests', () => {
         expect(resTest).toBeTruthy();
 
         if (resTest) {
-            expect(res.error instanceof BadRequestHttpResponse);
+            expect(res.error instanceof BadRequestHttpResponse).toBeTruthy();
         }
     });
 });
