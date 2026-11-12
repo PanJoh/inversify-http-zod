@@ -1,0 +1,17 @@
+{
+    "private": true,
+    "name": "@panjoh/inversify-http-utils",
+    "workspaces": [
+        "packages/**"
+    ],
+    "devDependencies": {
+        "typescript": "^7.0.2"
+    },
+    "dependencies": {
+        "@panjoh/inversify-http-zod": "^0.1.0"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/PanJoh/inversify-http-zod.git"
+    }
+}
