@@ -14,7 +14,8 @@ jobs:
               uses: dorny/paths-filter@v4
               with:
                 filters: |
-                    changed: packages/inversify-http-zod/src/**
+                    changed: 
+                        - packages/inversify-http-zod/src/**
 
     test:
         runs-on: ubuntu-latest
